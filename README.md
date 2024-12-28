@@ -6,6 +6,7 @@ Requirements:
 - [QBCore](https://github.com/qbcore-framework/qb-core)
 - [ox_target](https://github.com/overextended/ox_target)
 - [ox_lib](https://github.com/overextended/ox_lib)
+- [ox_inventory](https://github.com/overextended/ox_inventory)
 
 ~ No Reselling ~
 
