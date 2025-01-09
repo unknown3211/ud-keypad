@@ -5,13 +5,21 @@ description 'UD Keypad Stashes'
 
 lua54 'yes'
 
-ui_page 'web/build/index.html'
+shared_scripts {
+	'@ox_lib/init.lua'
+}
 
 client_script "client/**/*"
 server_script "server/**/*"
-shared_script 'config.lua'
+
+ui_page 'web/build/index.html'
 
 files {
 	'web/build/index.html',
 	'web/build/**/*',
+}
+
+dependencies {
+	'ox_lib',
+	'ox_target'
 }
